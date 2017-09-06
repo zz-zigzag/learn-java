@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>site.xiaodong</groupId>
 	<artifactId>learn-java</artifactId>
 	<version>${learn-java-version}</version>
 	<packaging>pom</packaging>
 	<description>learn-java</description>
-
-
 
 	<properties>
 		<learn-java-version>0.0.1</learn-java-version>
@@ -36,10 +35,8 @@
 		<taglibs-version>1.1.2</taglibs-version>
 		<freemarker-version>2.3.23</freemarker-version>
 	</properties>
-
-
+	
 	<dependencies>
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -286,7 +283,9 @@
 			</resource>
 		</resources>
 	</build>
-  <modules>
-    <module>annotation</module>
-  </modules>
+	<modules>
+		<module>annotation</module>
+		<module>aop</module>
+		<module>common</module>
+	</modules>
 </project>
