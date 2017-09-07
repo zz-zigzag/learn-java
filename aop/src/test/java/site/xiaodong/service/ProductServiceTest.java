@@ -77,4 +77,10 @@ public class ProductServiceTest {
 		productService.getName();
 		productService.findById(1L);
 	}
+	
+	@Test
+	public void testAdviceAspect2() {
+		productService.findById(1L);
+		productService.setName("Test","Test1");
+	}
 }

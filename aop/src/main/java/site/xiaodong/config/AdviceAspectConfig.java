@@ -40,10 +40,10 @@ public class AdviceAspectConfig {
 		System.out.println("##### afterReturning");
 	}
 
-	@AfterThrowing("matchException()")
-	public void afterThrowing() {
+	@AfterThrowing(value="matchException()", throwing="exception")
+	public void afterThrowing(Exception exception) {
 		System.out.println("");
-		System.out.println("##### afterThrowing");
+		System.out.println("##### afterThrowing: " + exception.getMessage());
 	}
 
 	@AfterReturning(value = "matchReturn()", returning = "result")
@@ -73,4 +73,5 @@ public class AdviceAspectConfig {
 		}
 		return result;
 	}
+	
 }

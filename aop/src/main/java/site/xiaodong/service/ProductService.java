@@ -11,6 +11,9 @@ public class ProductService implements Loggable {
 		System.out.println("execute get name");
 		return "product service";
 	}
+	public void setName(String name, String name1) {
+		System.out.println("execute set name: " + name);
+	}
 
 	public void exDemo() throws IllegalAccessException {
 		System.out.println("execute ex demo");
