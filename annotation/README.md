@@ -1,6 +1,6 @@
 
 
-##  [注解](annotation)
+##  注解
 
 > http://www.imooc.com/learn/456
 

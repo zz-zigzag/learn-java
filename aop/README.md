@@ -145,5 +145,5 @@ public  Object Around(ProceedingJoinPoint joinPoint) {
 #### Notes
 
 - @Advice上可以直接使用切点表达式，从而省略@Pointcut
-- @Advice上的`args()`和`@Pointcut`的意思有所不同，见[@Before](before)
+- @Advice上的`args()`和`@Pointcut`的意思有所不同，见[@Before](#before)
 
